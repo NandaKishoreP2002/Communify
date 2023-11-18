@@ -5,7 +5,7 @@ const GoogleUser = require("../models/googleUserSchema");
 
 dotenv.config();
 const postmark = require("postmark");
-const client = new postmark.ServerClient("bd97f144-faa2-4e72-a501-45c8596fcd7f");
+const client = new postmark.ServerClient(process.env.POSTMARK_API_TOKEN);
 
 router.get("/login/success", (req, res) => {
 	if (req.user) {

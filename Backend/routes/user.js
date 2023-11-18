@@ -5,7 +5,7 @@ const User = require("../models/userSchema");
 const Joi = require('joi');
 const { Types } = require("mongoose");
 const postmark = require("postmark");
-const client = new postmark.ServerClient("bd97f144-faa2-4e72-a501-45c8596fcd7f");
+const client = new postmark.ServerClient(process.env.POSTMARK_API_TOKEN);
 
 const userRouter = Router();
 
