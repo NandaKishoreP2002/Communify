@@ -1,0 +1,32 @@
+.maildiv {
+    background-color:white;
+    padding: 20px;
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.homebutton {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 25px;
+    color: white;
+    background-color: #ffc801;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-left: 165px;
+    margin-right: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.homebutton:hover {
+    background-color: #ff9900; 
+}
